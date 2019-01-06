@@ -4,9 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@storybook/addons": "^4.1.4",
     "@storybook/react": "^4.1.4",
     "babel-core": "^6.26.3",
-    "prettier": "^1.15.3"
+    "prettier": "^1.15.3",
+    "storybook-addon-jsx": "^6.0.0"
   },
   "dependencies": {
     "react": "^16.7.0",
