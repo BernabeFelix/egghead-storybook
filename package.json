@@ -1,0 +1,19 @@
+{
+  "name": "egghead-storybook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@storybook/react": "^4.1.4",
+    "babel-core": "^6.26.3",
+    "prettier": "^1.15.3"
+  },
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006 -c .storybook"
+  },
+  "prettier": {}
+}
