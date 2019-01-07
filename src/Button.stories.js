@@ -7,6 +7,6 @@ storiesOf("Button", module)
   .addParameters({ info: "This is a basic example" })
   .addWithJSX("with background", () => (
     <Button bg={text("bg", "lightblue")}>
-      I'm a button with blue background
+      I'm a button with dynamic background
     </Button>
   ));

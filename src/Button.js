@@ -6,6 +6,7 @@ const Button = ({ bg, children }) => (
 );
 
 Button.propTypes = {
+  /** This is the background color of the button */
   bg: string.isRequired,
   children: oneOfType([node, arrayOf(node)])
 };
